@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
         <NavbarContainer>
-            <NavLogo to='/'>dolla</NavLogo>
+            <NavLogo to='/'>kit.</NavLogo>
             <MobileIcon>
               <FaBars />
             </MobileIcon>

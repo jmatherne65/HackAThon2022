@@ -109,7 +109,7 @@
   }
 
   .kit {
-    position: fixed;
-    left: 1000px;
-    top: -740px;
+    position: absolute;
+    left: 500px;
+    top: 225px;
   }
