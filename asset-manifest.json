@@ -1,16 +1,20 @@
 {
   "files": {
-    "main.css": "/HackAThon2022/static/css/main.5274ef73.css",
-    "main.js": "/HackAThon2022/static/js/main.a463eac5.js",
+    "main.css": "/HackAThon2022/static/css/main.beaab33f.css",
+    "main.js": "/HackAThon2022/static/js/main.fea6a245.js",
     "static/js/787.13b2a736.chunk.js": "/HackAThon2022/static/js/787.13b2a736.chunk.js",
-    "static/media/logo.svg": "/HackAThon2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/Eat_Food.gif": "/HackAThon2022/static/media/Eat_Food.389ec92a48baf5054445.gif",
+    "static/media/True_Happy_Anim.gif": "/HackAThon2022/static/media/True_Happy_Anim.e44d9c271c6c78ee4701.gif",
+    "static/media/Water_Drink.gif": "/HackAThon2022/static/media/Water_Drink.486197f5c36f3b2815d3.gif",
+    "static/media/Exercise_Anim.gif": "/HackAThon2022/static/media/Exercise_Anim.1214616921ac758fb0cf.gif",
+    "static/media/_Happy_Idle_Anim (1).gif": "/HackAThon2022/static/media/_Happy_Idle_Anim (1).76ec3f28a0a961015ec6.gif",
     "index.html": "/HackAThon2022/index.html",
-    "main.5274ef73.css.map": "/HackAThon2022/static/css/main.5274ef73.css.map",
-    "main.a463eac5.js.map": "/HackAThon2022/static/js/main.a463eac5.js.map",
+    "main.beaab33f.css.map": "/HackAThon2022/static/css/main.beaab33f.css.map",
+    "main.fea6a245.js.map": "/HackAThon2022/static/js/main.fea6a245.js.map",
     "787.13b2a736.chunk.js.map": "/HackAThon2022/static/js/787.13b2a736.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5274ef73.css",
-    "static/js/main.a463eac5.js"
+    "static/css/main.beaab33f.css",
+    "static/js/main.fea6a245.js"
   ]
 }
