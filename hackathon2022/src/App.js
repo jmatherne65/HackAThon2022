@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom'
@@ -20,11 +19,12 @@ function App() {
         </buttonrow>
       </header>
 
-      <body>
-<div>
-  Everybody goes through tough times. Believe me, been there, done that.
-</div>
+      <body className="App-body">
+          <h1>Everybody goes through hard times. We're here to help.</h1>
+             <h3> Life can be difficult at times. Just know that you are not alone in this. Approximately 13% of all teenagers suffer from some form of depression, and 32% suffer from anxiety. </h3>
 
+
+              **We are not mental health professionals, and this advice should not be taken as a final decision. If you are suffering from mental health issues, please seek professional help.
       </body>
 
     </div>

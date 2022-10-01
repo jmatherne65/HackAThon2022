@@ -1,7 +1,5 @@
 
 .App-header {
-  background-color: #fab845;
-  background-image: linear-gradient(#fab845,rgba(252, 147, 254, 0.996) );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -100,4 +98,12 @@
     background-color: #3D889D;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+  }
+
+  .App-body {
+   font: arial;
+  }
+
+  .App {
+  background-image: linear-gradient(#fab845,#fc93fefe );
   }
