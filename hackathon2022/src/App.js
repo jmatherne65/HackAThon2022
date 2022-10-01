@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Router>
-      <Navbar />
+        <Navbar />
       </Router>
       <header className="App-header">
         <element id='rcorners3'></element>
@@ -34,5 +34,7 @@ function Exercise() {
 function Shower() {
   alert("Button 3 yep");
 }
+
+
 
 export default App;
