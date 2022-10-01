@@ -1,13 +1,32 @@
 import './App.css';
+import {useState} from 'react';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom'
-import _Happy_Idle_Amim from './images/_Happy_Idle_Anim (1).gif'
+import _Happy_Idle_Anim from './images/_Happy_Idle_Anim (1).gif'
 import Eat_Food from './images/Eat_Food.gif'
 import Exercise_Anim from './images/Exercise_Anim.gif'
 import True_Happy_Anim from './images/True_Happy_Anim.gif'
 import Water_Drink from './images/Water_Drink.gif'
 
 function App() {
+const [clicked, setClicked] = useState(false)
+
+function EatMeal() {
+  alert("Eating a proper, healthy meal can often help better your mood. When possible, please try to eat 3 times a day, and include vegetables and protein in these meals.");
+  setClicked(prev => !prev)
+
+}
+
+function Exercise() {
+  alert("Getting sunlight and being active can release natural endorphins, helping you feel better. Consistent light workouts, such as jogging or biking, can better your mental health in the long term.");
+  setClicked(prev => !prev)
+}
+
+function Shower() {
+  alert("Often, poor hygiene can feed into feelings of anxiety and self doubt. While it can be very hard to be motivated to do so, consistently taking showers and taking care of yourself can greatly improve your self image.");
+  setClicked(prev => !prev)
+}
+
   return (
     <div className="App">
       <Router>
@@ -22,7 +41,7 @@ function App() {
           <button3 className="button3" onClick={Shower}>Tend To Hygiene</button3>
         </buttonrow>
         <element justify="center" className='kit'>
-          <img src={_Happy_Idle_Amim} alt="loading..." />
+          <img src={clicked ? Eat_Food : _Happy_Idle_Anim} alt="loading..." />
         </element>
       </header>
 
@@ -51,16 +70,6 @@ function App() {
 }
 
 
-function EatMeal() {
-  alert("Eating a proper, healthy meal can often help better your mood. When possible, please try to eat 3 times a day, and include vegetables and protein in these meals.");
-}
 
-function Exercise() {
-  alert("Getting sunlight and being active can release natural endorphins, helping you feel better. Consistent light workouts, such as jogging or biking, can better your mental health in the long term.");
-}
-
-function Shower() {
-  alert("Often, poor hygiene can feed into feelings of anxiety and self doubt. While it can be very hard to be motivated to do so, consistently taking showers and taking care of yourself can greatly improve your self image.");
-}
 
 export default App;
