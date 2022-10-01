@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/HackAThon2022/static/css/main.beaab33f.css",
-    "main.js": "/HackAThon2022/static/js/main.fea6a245.js",
+    "main.js": "/HackAThon2022/static/js/main.02a641c2.js",
     "static/js/787.13b2a736.chunk.js": "/HackAThon2022/static/js/787.13b2a736.chunk.js",
     "static/media/Eat_Food.gif": "/HackAThon2022/static/media/Eat_Food.389ec92a48baf5054445.gif",
     "static/media/True_Happy_Anim.gif": "/HackAThon2022/static/media/True_Happy_Anim.e44d9c271c6c78ee4701.gif",
@@ -10,11 +10,11 @@
     "static/media/_Happy_Idle_Anim (1).gif": "/HackAThon2022/static/media/_Happy_Idle_Anim (1).76ec3f28a0a961015ec6.gif",
     "index.html": "/HackAThon2022/index.html",
     "main.beaab33f.css.map": "/HackAThon2022/static/css/main.beaab33f.css.map",
-    "main.fea6a245.js.map": "/HackAThon2022/static/js/main.fea6a245.js.map",
+    "main.02a641c2.js.map": "/HackAThon2022/static/js/main.02a641c2.js.map",
     "787.13b2a736.chunk.js.map": "/HackAThon2022/static/js/787.13b2a736.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.beaab33f.css",
-    "static/js/main.fea6a245.js"
+    "static/js/main.02a641c2.js"
   ]
 }
