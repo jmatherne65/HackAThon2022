@@ -107,3 +107,9 @@
   .App {
   background-image: linear-gradient(#fab845,#fc93fefe );
   }
+
+  .kit {
+    position: fixed;
+    left: 1000px;
+    top: -740px;
+  }

@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router } from 'react-router-dom'
-
+import _Happy_Idle_Amim from './images/_Happy_Idle_Anim (1).gif'
 
 function App() {
   return (
@@ -12,6 +12,9 @@ function App() {
       <header className="App-header">
         <element id='rcorners3'></element>
         <element id='rcorners4'></element>
+        <element justify = "center" id = 'kit'>
+        <img src={_Happy_Idle_Amim} alt="loading..." />
+        </element>
         <buttonrow justify="center">
           <button1 className="button1" onClick={EatMeal}>Have A Mindful Meal</button1>
           <button2 className="button2" onClick={Exercise}>Get Some Exercise</button2>
